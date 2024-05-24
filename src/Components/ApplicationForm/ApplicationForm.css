@@ -1,0 +1,51 @@
+.application {
+    display: flex;
+    align-items: center; /* Aligns vertically */
+    justify-content: center; /* Aligns horizontally */
+    margin: 20px;
+}
+
+form {
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 500px; /* Sets a max width for the form */
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF; /* Bootstrap primary blue */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+span {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+}
