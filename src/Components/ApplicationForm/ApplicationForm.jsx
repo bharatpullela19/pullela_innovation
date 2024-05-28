@@ -30,13 +30,13 @@ const ApplicationForm = () => {
   return (
     <div className='application'>
       <form onSubmit={onSubmit}>
-        <label>Your Name</label>
+        <label>Name</label>
         <input type="text" name='name' placeholder='Enter your name' required />
         
-        <label>Your Email</label>
+        <label>Email</label>
         <input type="email" name='email' placeholder='Enter your email' required />
         
-        <label>Your Phone Number</label>
+        <label>Phone Number</label>
         <input type="tel" name='phone' placeholder='Enter your phone number' required />
         
         <label>Full Time (40 hours) or Part-Time (20 hours)</label>
